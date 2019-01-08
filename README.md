@@ -1,12 +1,18 @@
+# tiddlywiki docker
+
 Run TiddlyWiki 5 via docker.
 
 ## Prerequisites
 
-Install docker.
+Install docker. Follow instryuctions on docker site
 
 ## Quickstart
 
-    sudo docker run -d -p 8080:8080 mazzolino/tiddlywiki
+ ```bash
+    git clone 
+    docker build -t tiddlywiki:5 .
+	docker run -d -p 8080:8080 tiddlywiki:5
+  ```
 
 Now TiddlyWiki should be running on [http://localhost:8080](http://localhost:8080).
 
