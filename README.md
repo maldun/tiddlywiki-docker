@@ -14,7 +14,7 @@ Install docker. Follow instryuctions on docker site
  ```bash
     git clone git clone -b  addons https://github.com/maldun/tiddlywiki-docker.git
     docker build -t tiddlywiki:5 .
-	docker run -d -p 8082:8082 tiddlywiki:5
+	docker run -d -p 8082:8080 tiddlywiki:5
   ```
 
 Now TiddlyWiki should be running on [http://localhost:8082](http://localhost:8082).
